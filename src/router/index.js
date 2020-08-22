@@ -9,12 +9,12 @@ Vue.use(VueRouter)
   {
     path: '/',
     name: 'Home',
-    component: { default: Home, test: About }
+    components: { default: Home, test: About }
   },
   {
     path: '/about',
     name: 'About',
-    component: {
+    components: {
        default: About
     }
   }
